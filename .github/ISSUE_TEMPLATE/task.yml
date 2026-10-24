@@ -1,0 +1,18 @@
+name: Task
+description: Plan work that is neither a defect nor a new capability.
+type: Task
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs doing, and why it is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion
+      description: The observable condition that marks the work as done.
+    validations:
+      required: true

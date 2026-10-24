@@ -1,0 +1,18 @@
+name: Feature
+description: Request a capability that does not exist.
+type: Feature
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: The problem this solves, described without a solution.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What becomes possible once this exists.
+    validations:
+      required: true
