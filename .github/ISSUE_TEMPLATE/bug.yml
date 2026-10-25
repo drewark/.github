@@ -1,0 +1,32 @@
+name: Bug
+description: Report existing behavior that is wrong.
+type: Bug
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Behavior
+      description: What happens.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+      description: What happens instead when the behavior is correct.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: The steps that produce the behavior.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release tag or commit where the behavior was observed.
+    validations:
+      required: true

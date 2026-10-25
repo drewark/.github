@@ -1,0 +1,32 @@
+############################################
+# Organization Defaults
+# templates only: no build, no runtime
+############################################
+
+# =========================
+# System / OS
+# =========================
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+__MACOSX/
+
+# =========================
+# IDE / Editor state
+# =========================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+*.swp
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
